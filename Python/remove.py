@@ -2,5 +2,4 @@ import os
 
 carpetas = ["Imagenes", "Documentos", "Musica"]
 for carpeta in carpetas:
-    os.makedirs(carpeta, exist_ok=True)
-
+    os.rmdir(carpeta)
